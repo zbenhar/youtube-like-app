@@ -13,6 +13,10 @@
 		A79E3E2A24A04881000F7DC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79E3E2824A04881000F7DC0 /* Main.storyboard */; };
 		A79E3E2C24A04883000F7DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79E3E2B24A04883000F7DC0 /* Assets.xcassets */; };
 		A79E3E2F24A04883000F7DC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79E3E2D24A04883000F7DC0 /* LaunchScreen.storyboard */; };
+		A7FA4D3424A15DB100B92780 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA4D3324A15DB100B92780 /* Constants.swift */; };
+		A7FA4D3624A1807E00B92780 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA4D3524A1807E00B92780 /* Video.swift */; };
+		A7FA4D3824A180F100B92780 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA4D3724A180F100B92780 /* Model.swift */; };
+		A7FA4D3A24A1948B00B92780 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA4D3924A1948B00B92780 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A79E3E2B24A04883000F7DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A79E3E2E24A04883000F7DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A79E3E3024A04883000F7DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FA4D3324A15DB100B92780 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A7FA4D3524A1807E00B92780 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		A7FA4D3724A180F100B92780 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A7FA4D3924A1948B00B92780 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				A79E3E2B24A04883000F7DC0 /* Assets.xcassets */,
 				A79E3E2D24A04883000F7DC0 /* LaunchScreen.storyboard */,
 				A79E3E3024A04883000F7DC0 /* Info.plist */,
+				A7FA4D3324A15DB100B92780 /* Constants.swift */,
+				A7FA4D3524A1807E00B92780 /* Video.swift */,
+				A7FA4D3724A180F100B92780 /* Model.swift */,
+				A7FA4D3924A1948B00B92780 /* Response.swift */,
 			);
 			path = "youtube-like-app";
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				A79E3E2724A04881000F7DC0 /* ViewController.swift in Sources */,
 				A79E3E2324A04881000F7DC0 /* AppDelegate.swift in Sources */,
 				A79E3E2524A04881000F7DC0 /* SceneDelegate.swift in Sources */,
+				A7FA4D3824A180F100B92780 /* Model.swift in Sources */,
+				A7FA4D3424A15DB100B92780 /* Constants.swift in Sources */,
+				A7FA4D3624A1807E00B92780 /* Video.swift in Sources */,
+				A7FA4D3A24A1948B00B92780 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
