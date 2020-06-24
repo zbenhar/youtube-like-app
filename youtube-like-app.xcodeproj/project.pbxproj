@@ -14,6 +14,8 @@
 		A79E3E2A24A04881000F7DC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79E3E2824A04881000F7DC0 /* Main.storyboard */; };
 		A79E3E2C24A04883000F7DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79E3E2B24A04883000F7DC0 /* Assets.xcassets */; };
 		A79E3E2F24A04883000F7DC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79E3E2D24A04883000F7DC0 /* LaunchScreen.storyboard */; };
+		A7E77B3F24A300AD00EDC9F1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E77B3E24A300AD00EDC9F1 /* DetailViewController.swift */; };
+		A7E77B4224A30EFA00EDC9F1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E77B4124A30EFA00EDC9F1 /* WebKit.framework */; };
 		A7FA4D3424A15DB100B92780 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA4D3324A15DB100B92780 /* Constants.swift */; };
 		A7FA4D3624A1807E00B92780 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA4D3524A1807E00B92780 /* Video.swift */; };
 		A7FA4D3824A180F100B92780 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FA4D3724A180F100B92780 /* Model.swift */; };
@@ -31,6 +33,8 @@
 		A79E3E2B24A04883000F7DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A79E3E2E24A04883000F7DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A79E3E3024A04883000F7DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E77B3E24A300AD00EDC9F1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A7E77B4124A30EFA00EDC9F1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A7FA4D3324A15DB100B92780 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A7FA4D3524A1807E00B92780 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		A7FA4D3724A180F100B92780 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E77B4224A30EFA00EDC9F1 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,7 @@
 			children = (
 				A79E3E2124A04881000F7DC0 /* youtube-like-app */,
 				A79E3E2024A04881000F7DC0 /* Products */,
+				A7E77B4024A30EFA00EDC9F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +87,19 @@
 			path = "youtube-like-app";
 			sourceTree = "<group>";
 		};
+		A7E77B4024A30EFA00EDC9F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7E77B4124A30EFA00EDC9F1 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7FA4D3D24A1AB0400B92780 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				A79E3E2624A04881000F7DC0 /* ViewController.swift */,
+				A7E77B3E24A300AD00EDC9F1 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -203,6 +218,7 @@
 				A7FA4D3824A180F100B92780 /* Model.swift in Sources */,
 				A7FA4D3424A15DB100B92780 /* Constants.swift in Sources */,
 				A7FA4D3C24A1AAF200B92780 /* VideoTableViewCell.swift in Sources */,
+				A7E77B3F24A300AD00EDC9F1 /* DetailViewController.swift in Sources */,
 				A7FA4D3624A1807E00B92780 /* Video.swift in Sources */,
 				A7FA4D3A24A1948B00B92780 /* Response.swift in Sources */,
 			);
